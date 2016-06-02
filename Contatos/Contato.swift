@@ -8,14 +8,14 @@
 
 import UIKit
 
-public class Contato : CustomStringConvertible {
+public class Contato : NSObject {
     var nome : String!
     var endereco : String!
     var telefone : String!
     var email : String!
     var site : String!
 
-    public var description : String {
-        return "Nome: \(nome) Telefone: \(telefone) E-mail: \(email) Endereco: \(endereco) Site: \(site)"
+    override public var description : String {
+        return "Nome: \(self.nome) Telefone: \(self.telefone) E-mail: \(self.email) Endereco: \(self.endereco) Site: \(self.site)"
     }
 }
