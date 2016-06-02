@@ -13,6 +13,7 @@
 		8364A2731CB2F70000BED9D6 /* Contatos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8364A2711CB2F70000BED9D6 /* Contatos.xcdatamodeld */; };
 		8364A2751CB2F70000BED9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8364A2741CB2F70000BED9D6 /* Assets.xcassets */; };
 		8364A2781CB2F70000BED9D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8364A2761CB2F70000BED9D6 /* LaunchScreen.storyboard */; };
+		8364A2801CB3139E00BED9D6 /* Contato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364A27F1CB3139E00BED9D6 /* Contato.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8364A2741CB2F70000BED9D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8364A2771CB2F70000BED9D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8364A2791CB2F70000BED9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8364A27F1CB3139E00BED9D6 /* Contato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contato.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				8364A26A1CB2F70000BED9D6 /* AppDelegate.swift */,
 				8364A26C1CB2F70000BED9D6 /* FormularioContatoViewController.swift */,
+				8364A27F1CB3139E00BED9D6 /* Contato.swift */,
 				8364A26E1CB2F70000BED9D6 /* Main.storyboard */,
 				8364A2741CB2F70000BED9D6 /* Assets.xcassets */,
 				8364A2761CB2F70000BED9D6 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8364A2801CB3139E00BED9D6 /* Contato.swift in Sources */,
 				8364A26D1CB2F70000BED9D6 /* FormularioContatoViewController.swift in Sources */,
 				8364A26B1CB2F70000BED9D6 /* AppDelegate.swift in Sources */,
 				8364A2731CB2F70000BED9D6 /* Contatos.xcdatamodeld in Sources */,
