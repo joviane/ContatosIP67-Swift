@@ -35,6 +35,9 @@ public class FormularioContatoViewController : UIViewController {
         contato.endereco = self.endereco.text
         contato.site = self.site.text
         
+        let dao = ContatoDao()
+        dao.adiciona(contato);
+        
         print("\(contato)")
     }
 

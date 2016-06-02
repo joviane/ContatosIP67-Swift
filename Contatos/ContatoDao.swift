@@ -8,6 +8,16 @@
 
 import UIKit
 
-class ContatoDao: NSObject {
+public class ContatoDao: NSObject {
+    static let defaultDao = ContatoDao()
+    
+    private init() {
+    }
+    
+    var contatos = Array<Contato>()
+    
+    func adiciona(contato:Contato) {
+        self.contatos.append(contato)
+    }
 
 }
